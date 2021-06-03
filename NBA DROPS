@@ -1,0 +1,173 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" href="estilos.css">
+		<title>NBA.DROPS</title>
+
+
+
+
+
+	</head>
+
+		<body bgcolor="#E8ECFF">
+			
+				<div class="menu">
+					<font size="10" color="white" ><center><b>NBA DROPS</b></center></font>
+					
+				</div>
+				
+				<div class="logo">
+					<img src="nba-logo.png" width="195px" height="85px">
+				</div>
+
+				<div class="prenda1">
+					<img src="gswyellow.jpg" width="400px" height="300px"
+				</div>
+				<div class="texto1">
+					<font color="white"><b>Oakland GSW Stephen Curry T-Shirt&nbsp;70,00€</b></font>
+				</div>
+				<div class="prenda1">
+					<font color="white"><b>Miami Heat Nike City Edition Swingman Jersey - Jimmy Butler - Youth - 2020&nbsp;70,00€</b></font>
+				</div>
+</div>
+		
+		<div class="desplegable">
+	<header>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Servicios</a>
+					<ul class="submenu">
+						<li><a href="#">Servicio #1</a></li>
+						<li><a href="#">Servicio #2</a></li>
+						<li><a href="#">Servicio #3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	</div>
+	</body>
+
+</html>
+
+div.menu{
+		width:850px;
+		height:100px;
+		position:absolute;
+		background-color:#313D52;
+		top:5%;
+		left:-18%;
+		border-radius:50px;
+		font-family:'Open sans';
+		
+}
+
+div.desplegable{
+		width:500px;
+		height:10px;
+		position:absolute;
+		background-color:#313D52;
+		top:3%;
+		left:65%;
+		
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #313D52;
+}
+
+header{
+	width: 100%;
+}
+
+
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+div.logo{
+		width:50px;
+		height:95px;
+		position:absolute;
+		
+		top:3%;
+		left:19%;
+		border-radius:50px;
+			
+}
+
+div.prenda1{
+		width:850px;
+		height:100px;
+		position:absolute;
+		top:20%;
+		left:7%;
+		border-radius:50px;
+		transition:all 1s ease-out;
+}
+div.prenda1:hover{
+	transform:scale(1.1)
+}	
+
+div.prenda2{
+		width:850px;
+		height:100px;
+		position:absolute;
+		top:20%;
+		left:7%;
+		border-radius:50px;
+		transition:all 1s ease-out;	
+		
+	
+}
+div.prenda2:hover{
+		transform:scale(1.1)
+}
